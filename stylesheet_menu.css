@@ -1,0 +1,130 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+
+#blueBG {
+	width: 700px;
+	height: 800px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(0, 51, 204);
+	z-index: -1;
+}
+
+#movehold {
+	width: 700px;
+	height: 800px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.0;
+}
+
+/* unvisited link */
+a:link {
+		color: #EE9;
+		text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #331;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff9900;
+}
+
+ul.sqr {
+		/*list-style-type: square;*/
+		font-weight: normal;
+	text-transform: uppercase;
+	color: #EE9;
+	letter-spacing: 0.15em;
+	font-family: "Futura", Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 3.3;
+	vertical-align: bottom;
+}
+ul li{
+list-style-type: none;
+}
+
+
+
+.Back {
+	font-family: "Futura", Helvetica, sans-serif;
+
+	width:48px;
+	height:30px;
+	background-color: #EE9;
+	padding-top: 4px;
+	padding-left: 10px;
+	position:relative;
+	left:350px;
+	top: 160px;
+}
+
+.menuItem {
+	width: 300px;
+	height: 400px;
+	position: relative;
+		left: 240px;
+		top: 140px;
+		border-style: solid;
+		border-color: #DD4;
+		z-index: 0;
+
+}
+
+.moon {
+		/*width: 120px;
+		height: 120px;
+
+	opacity: 1;
+	animation-name: spin_4;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-play-state: running;
+	position: relative;
+	left: 200px;
+	top: 100px;*/
+
+	opacity: 1;
+	animation-name: spin_move;
+	animation-direction: normal;
+	animation-delay: .5s;
+	animation: spin_move .5s infinite;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	left: 99px;
+	top: 100px;
+	z-index: 1;
+
+}
+
+/*@keyframes spin_4 {
+from {
+    transform:rotate(0deg);
+	}
+to {
+    transform:rotate(360deg);
+	}
+	
+}
+*/
+
+@keyframes spin_move {
+from {
+    transform:rotate(0deg);
+	}
+to {
+    transform:rotate(360deg);
+	}
+	}
