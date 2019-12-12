@@ -1,0 +1,323 @@
+body{
+	max-width: 1600px; 
+	background-color: black; 
+}
+
+*{
+	text-decoration: none;
+}
+h2 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+h3 {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+header {
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+	text-align:center;
+	padding: 20px 0px;
+    font-family: futura, 'sans-serif';
+}
+
+.header-index{
+	font-family: futura, sans-serif;
+	padding: 15px;
+	color:black;
+
+}
+
+.header-work{
+	font-family: futura, sans-serif;
+	padding: 15px;
+	color:black;
+}
+
+.header-about{
+	font-family: futura, sans-serif;
+	padding: 15px;
+	color:black;
+}
+
+.header-contact{
+	font-family: futura, sans-serif;
+	padding: 15px;
+	color:black;
+}
+
+.annakracklauer{
+	font-family: futura, sans-serif;
+    font-size: 40px;
+	padding: 15px;
+	color: white;
+	height: 100vw;
+	width: 17%;
+	padding-top:300px;
+	padding-left: 250px;
+	background-image: url("AnnaCropped.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+  
+
+}
+
+/*<img src="AnnaCropped.png" alt="Foto of me">*/
+
+.container{
+
+    font-family: futura, 'sans-serif';
+    text-transform: uppercase;
+    width: 768px;
+    height: 1024px;
+    background-color: black;
+    margin:auto;
+    padding:40px 15px;
+    position: relative;
+}
+
+*{
+    text-decoration: none;
+}
+
+.enve{
+    background-color: #FF0;
+    position: relative;
+    top: 0px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    width: 748px;
+    height: 900px;
+    margin: 0px;
+}
+.textForm {
+    content:"";
+    display:table;
+    clear:both;
+ 
+}
+label{
+    color: white;
+    font-family: futura, 'sans-serif';
+    text-transform: uppercase;
+}
+/* holder for the real textarea*/
+.textAREA{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    top:-40px;
+    left: 90px;
+}
+/* the real textarea*/
+textarea {
+    outline: none;
+    resize: none;
+    overflow: auto;
+    font: 15px/24px 'futura', serif; 
+    color: #333; 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    width: 600px;
+    height: 200px;
+}
+
+::placeholder {
+  color: #550000;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* WebKit browsers 
+::-webkit-input-placeholder { 
+    color: #550000;*/
+}
+/* necessary to give position: relative to parent. */
+input[type="text"]{
+    font: 15px/24px 'futura', sans-serif; 
+    color: #333; /*width: 100%;*/ 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+}
+
+.inputName{
+    color: black;
+    font-family: futura, 'sans-serif';
+    text-transform: uppercase;
+    width: 200px;
+    height: 28px;
+    background-color: #CCC;
+    position: relative;
+    top:-2px;
+    left: 42px;
+}
+.email{
+    color: black;
+    font-family: futura, 'sans-serif';
+    text-transform: uppercase;
+    width: 200px;
+    height: 28px;
+    background-color: #CCC;
+    position: relative;
+    top: 2px;
+    left: 42px;
+}
+
+.messageConfirm {
+	width: 600px;
+    height: 100px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    background-color: white;
+    border: 1px, solid, pink;
+    padding: 3px;
+    border-radius: 2px;
+	color: black;
+    font-family: futura, 'sans-serif';
+    text-transform: uppercase;
+}
+
+.journalist{
+  color: white;  
+  font-family: futura, 'sans-serif';
+  width: 150px;
+  height:150px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-left:50px;
+
+}
+  /* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: red
+}
+
+
+
+.introduction{
+    font-family: futura, 'sans-serif';
+    color: white;
+    width: 200px;
+    height: 100px;
+    padding-left:100px;
+    padding-top:100px;
+    padding-bottom: 100px;
+
+}
+
+main {position: relative;}
+
+.hvrbox,
+.hvrbox *{
+box-sizing: border-box;
+
+
+}
+
+.hvrbox{
+    
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    height:auto;
+    position: relative;
+    top: -180px;
+    font-family: futura, 'sans-serif';
+
+}
+
+.hvrbox img {
+    max-width:100%;
+    float: right;
+    padding-left: 350px;
+    padding-top: 0px;
+    padding-right: 50px;
+    position: relative;
+    
+
+}
+
+.hvrbox .hvrbox-layer_top{
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0, .6);
+    color: #fff;
+    padding:15px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top{
+    opacity:1;
+}
+
+.hvrbox .hvrbox-text{
+    text-align: left;
+    font-size:12px;
+    display:inline-block;
+    position: /*absolute*/relative;
+    top:190px;
+    left:500px;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hvrbox .hvrbox-text_mobile {
+    font-size: 15px;
+    border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+    border-top: 1px solid rgba(179, 179, 179, 0.7);
+    margin-top: 5px;
+    padding-top: 2px;
+    display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+    display: block;
+}
+
+
+
+
+
+
+
+
